@@ -1,0 +1,32 @@
+# Ignore the build folder
+bin/
+obj/
+
+# Ignore the settings folder
+.vs/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore NuGet Packages
+*.nupkg
+# The packages folder can be ignored if you're using package restore
+packages/
+
+# Ignore ReSharper files
+_ReSharper*/
+*ReSharper*
+
+# Ignore the logs
+logs/
+*.log
+
+# Ignore other files that should not be committed
+.DS_Store
+*.swp
