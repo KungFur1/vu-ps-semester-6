@@ -1,0 +1,2 @@
+# d2l notes
+This folder contains notes I take while studying [**Dive Into Deep Learning**](https://d2l.ai/index.html). The content of these notes is very similar to the book it self and in a lot of parts copy pasted, so I dont take any credit for the contents of this folder.
