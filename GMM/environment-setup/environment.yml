@@ -15,4 +15,6 @@ dependencies:
 #  - tensorflow
   - pip:
     - d2l
-    - ucimlrepo
+    - ucimlrepo # Download sample datasets
+    - openimages # week-1
+    - scikit-image # week-1
