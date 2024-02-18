@@ -18,3 +18,4 @@ dependencies:
     - ucimlrepo # Download sample datasets
     - openimages # week-1
     - scikit-image # week-1
+    - transformers # week-2
