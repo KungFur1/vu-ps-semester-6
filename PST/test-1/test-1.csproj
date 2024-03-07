@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
     <PackageReference Include="Selenium.WebDriver" Version="4.18.0" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="121.0.6167.18400" />
   </ItemGroup>

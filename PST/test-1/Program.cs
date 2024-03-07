@@ -3,10 +3,11 @@ using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Chrome;
+using SeleniumExtras.WaitHelpers;
 
 
-//FirstTask();
-SecondTask();
+FirstTask();
+//SecondTask();
 
 
 
@@ -103,13 +104,17 @@ void FirstTask()
     startStopButton.Click();
 
     // 6
-    xpath = "//div[@id='progressBar']//div";
-    var progressBarOther = driver.FindElement(By.XPath(xpath));
-    while (progressBarOther.Text != "100%")
-    {
-        System.Threading.Thread.Sleep(500);
-    }
+    WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(90));
+    wait.Until(ExpectedConditions.ElementIsVisible(By.Id("resetButton")));
     var resetButton = driver.FindElement(By.Id("resetButton"));
+
+    // xpath = "//div[@id='progressBar']//div";
+    var progressBarOther = driver.FindElement(By.XPath(xpath));
+    // while (progressBarOther.Text != "100%")
+    // {
+    //     System.Threading.Thread.Sleep(500);
+    // }
+    // var resetButton = driver.FindElement(By.Id("resetButton"));
     resetButton.Click();
 
     // 7
