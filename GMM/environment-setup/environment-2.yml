@@ -1,0 +1,16 @@
+# CONDA IS GARBAGE
+
+name: gmm-env-2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - ipykernel # For Jupyter notebooks
+  - pip:
+      - openimages # For downloading image dataset
+      - tensorflow
+      - tensorflow-gpu
+      - opencv
+      - matplotlib

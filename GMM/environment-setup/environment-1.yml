@@ -1,4 +1,4 @@
-name: gmm-env
+name: gmm-env-1
 channels:
   - pytorch
   - conda-forge

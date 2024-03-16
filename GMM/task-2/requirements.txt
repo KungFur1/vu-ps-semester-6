@@ -1,0 +1,21 @@
+jupyter
+jupyterlab
+ipykernel
+
+tensorflow
+# tensorflow-gpu # Does not work # Outdated and is integrated into the main package tensorflow
+opencv-python
+matplotlib
+openimages
+
+torch
+torchvision
+
+scikit-learn
+seaborn
+
+fastapi
+uvicorn
+Pillow
+
+python-multipart
