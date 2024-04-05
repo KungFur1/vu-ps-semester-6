@@ -1,5 +1,7 @@
 # Lectures 2 & 3
 
+Lectures: https://www.youtube.com/playlist?list=PLA7athEO665B5tSw4fMbogoWpkZHlIXx3
+
 ## Programming Paradigms
 - structural - any program can be written in a series of commands, flow control statments and loops.
 - procedural - you view software as a collection of procedures that are executed in some order.
